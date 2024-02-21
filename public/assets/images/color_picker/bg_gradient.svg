@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>矩形备份 211</title>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#E6ECF4" offset="0%"></stop>
+            <stop stop-color="#B6CEF0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="色板工具" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-312.000000, -1277.000000)" fill="url(#linearGradient-1)" id="矩形备份-211">
+            <rect x="312" y="1277" width="24" height="24" rx="12"></rect>
+        </g>
+    </g>
+</svg>

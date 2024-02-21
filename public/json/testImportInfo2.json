@@ -1,0 +1,2042 @@
+{
+    "page": {
+        "backgroundColor": "transparent",
+        "width": 1050,
+        "height": 1000,
+        "padding": 20,
+        "showGrid": true,
+        "gridSize": 15,
+        "orientation": "portrait",
+        "lineJumps": false
+    },
+    "elements": {
+        "SQljzHcreU302658": {
+            "id": "SQljzHcreU302658",
+            "name": "verticalPool",
+            "title": "泳池(垂直)",
+            "category": "lane",
+            "group": "",
+            "groupName": null,
+            "locked": false,
+            "link": "",
+            "children": [
+                "ZjPUTGREpG701747",
+                "JJwSFDpymU219441",
+                "mzwcOnQkeI908392",
+                "LZvirKsgzr858675",
+                "IBkurOGNWw129225"
+            ],
+            "parent": "",
+            "resizeDir": [
+                "l",
+                "b",
+                "r"
+            ],
+            "attribute": {
+                "container": true,
+                "visible": true,
+                "rotatable": false,
+                "linkable": false,
+                "collapsable": false,
+                "collapsed": false,
+                "markerOffset": 5
+            },
+            "dataAttributes": [],
+            "props": {
+                "x": 180,
+                "y": 155,
+                "w": 520,
+                "h": 540,
+                "zindex": -1,
+                "angle": 0
+            },
+            "shapeStyle": {
+                "alpha": 1
+            },
+            "lineStyle": {},
+            "fillStyle": {},
+            "theme": {},
+            "path": [
+                {
+                    "fillStyle": {
+                        "type": "none"
+                    },
+                    "lineStyle": {
+                        "lineStyle": "solid"
+                    },
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": "0",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": "0",
+                            "y": "h"
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                },
+                {
+                    "lineStyle": {
+                        "lineStyle": "solid"
+                    },
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": 0
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": 40
+                        },
+                        {
+                            "action": "line",
+                            "x": 0,
+                            "y": 40
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                }
+            ],
+            "fontStyle": {
+                "size": 16
+            },
+            "textBlock": [
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 0,
+                        "w": "w-20",
+                        "h": 40
+                    }
+                }
+            ],
+            "anchors": [],
+            "itemMessage": {
+                "workContent": ""
+            }
+        },
+        "ZjPUTGREpG701747": {
+            "id": "ZjPUTGREpG701747",
+            "name": "verticalLane",
+            "title": "泳道(垂直)",
+            "category": "lane",
+            "group": "",
+            "groupName": null,
+            "locked": false,
+            "link": "",
+            "children": [],
+            "parent": "SQljzHcreU302658",
+            "resizeDir": [
+                "l",
+                "b",
+                "r"
+            ],
+            "attribute": {
+                "container": true,
+                "visible": true,
+                "rotatable": false,
+                "linkable": false,
+                "collapsable": false,
+                "collapsed": false,
+                "markerOffset": 5
+            },
+            "dataAttributes": [],
+            "props": {
+                "x": 200,
+                "y": 195,
+                "w": 250,
+                "h": 500,
+                "zindex": -1,
+                "angle": 0
+            },
+            "shapeStyle": {
+                "alpha": 1
+            },
+            "lineStyle": {},
+            "fillStyle": {},
+            "theme": {},
+            "path": [
+                {
+                    "fillStyle": {
+                        "type": "none"
+                    },
+                    "lineStyle": {
+                        "lineStyle": "solid"
+                    },
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": "0",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": "0",
+                            "y": "h"
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                },
+                {
+                    "lineStyle": {
+                        "lineStyle": "solid"
+                    },
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": 0
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": 30
+                        },
+                        {
+                            "action": "line",
+                            "x": 0,
+                            "y": 30
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                }
+            ],
+            "fontStyle": {},
+            "textBlock": [
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 0,
+                        "w": "w-20",
+                        "h": 30
+                    }
+                }
+            ],
+            "anchors": [],
+            "itemMessage": {
+                "workContent": ""
+            }
+        },
+        "JJwSFDpymU219441": {
+            "id": "JJwSFDpymU219441",
+            "name": "verticalLane",
+            "title": "泳道(垂直)",
+            "category": "lane",
+            "group": "",
+            "groupName": null,
+            "locked": false,
+            "link": "",
+            "children": [],
+            "parent": "SQljzHcreU302658",
+            "resizeDir": [
+                "l",
+                "b",
+                "r"
+            ],
+            "attribute": {
+                "container": true,
+                "visible": true,
+                "rotatable": false,
+                "linkable": false,
+                "collapsable": false,
+                "collapsed": false,
+                "markerOffset": 5
+            },
+            "dataAttributes": [],
+            "props": {
+                "x": 450,
+                "y": 195,
+                "w": 250,
+                "h": 500,
+                "zindex": -1,
+                "angle": 0
+            },
+            "shapeStyle": {
+                "alpha": 1
+            },
+            "lineStyle": {},
+            "fillStyle": {},
+            "theme": {},
+            "path": [
+                {
+                    "fillStyle": {
+                        "type": "none"
+                    },
+                    "lineStyle": {
+                        "lineStyle": "solid"
+                    },
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": "0",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": "0",
+                            "y": "h"
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                },
+                {
+                    "lineStyle": {
+                        "lineStyle": "solid"
+                    },
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": 0
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": 30
+                        },
+                        {
+                            "action": "line",
+                            "x": 0,
+                            "y": 30
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                }
+            ],
+            "fontStyle": {},
+            "textBlock": [
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 0,
+                        "w": "w-20",
+                        "h": 30
+                    }
+                }
+            ],
+            "anchors": []
+        },
+        "mzwcOnQkeI908392": {
+            "id": "mzwcOnQkeI908392",
+            "name": "verticalSeparatorBar",
+            "title": "水平分隔条",
+            "category": "lane",
+            "group": "",
+            "groupName": null,
+            "locked": false,
+            "link": "",
+            "children": [],
+            "parent": "SQljzHcreU302658",
+            "resizeDir": [],
+            "attribute": {
+                "container": false,
+                "visible": false,
+                "rotatable": false,
+                "linkable": false,
+                "collapsable": false,
+                "collapsed": false,
+                "markerOffset": 5
+            },
+            "dataAttributes": [],
+            "props": {
+                "x": 180,
+                "y": 195,
+                "w": 20,
+                "h": 500,
+                "zindex": 0,
+                "angle": 0
+            },
+            "shapeStyle": {
+                "alpha": 1
+            },
+            "lineStyle": {},
+            "fillStyle": {},
+            "theme": {},
+            "path": [
+                {
+                    "lineStyle": {
+                        "lineStyle": "solid"
+                    },
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": "0",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": "0",
+                            "y": "h"
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                }
+            ],
+            "fontStyle": {},
+            "textBlock": [],
+            "anchors": []
+        },
+        "IBkurOGNWw129225": {
+            "id": "IBkurOGNWw129225",
+            "name": "horizontalSeparator",
+            "title": "分隔符(水平)<br>需拖动到泳池泳道上",
+            "category": "lane",
+            "group": "",
+            "groupName": null,
+            "locked": false,
+            "link": "",
+            "children": [],
+            "parent": "SQljzHcreU302658",
+            "resizeDir": [
+                "b"
+            ],
+            "attribute": {
+                "container": false,
+                "visible": true,
+                "rotatable": false,
+                "linkable": false,
+                "collapsable": false,
+                "collapsed": false,
+                "markerOffset": 5
+            },
+            "dataAttributes": [],
+            "props": {
+                "x": 180,
+                "y": 440,
+                "w": 520,
+                "h": 255,
+                "zindex": 1,
+                "angle": 0
+            },
+            "shapeStyle": {
+                "alpha": 1
+            },
+            "lineStyle": {},
+            "fillStyle": {},
+            "theme": {},
+            "path": [
+                {
+                    "fillStyle": {
+                        "type": "none"
+                    },
+                    "lineStyle": {
+                        "lineStyle": "solid"
+                    },
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": 0,
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "h"
+                        }
+                    ]
+                },
+                {
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "action": "line",
+                            "x": 20,
+                            "y": 0
+                        },
+                        {
+                            "action": "line",
+                            "x": 20,
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": 0,
+                            "y": "h"
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                }
+            ],
+            "fontStyle": {
+                "orientation": "horizontal",
+                "textAlign": "left"
+            },
+            "textBlock": [
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 5,
+                        "w": 20,
+                        "h": "h-10"
+                    },
+                    "text": "阶段"
+                }
+            ],
+            "anchors": []
+        },
+        "LZvirKsgzr858675": {
+            "id": "LZvirKsgzr858675",
+            "name": "horizontalSeparator",
+            "title": "分隔符(水平)<br>需拖动到泳池泳道上",
+            "category": "lane",
+            "group": "",
+            "groupName": null,
+            "locked": false,
+            "link": "",
+            "children": [],
+            "parent": "SQljzHcreU302658",
+            "resizeDir": [
+                "b"
+            ],
+            "attribute": {
+                "container": false,
+                "visible": true,
+                "rotatable": false,
+                "linkable": false,
+                "collapsable": false,
+                "collapsed": false,
+                "markerOffset": 5
+            },
+            "dataAttributes": [],
+            "props": {
+                "x": 180,
+                "y": 195,
+                "w": 520,
+                "h": 245,
+                "zindex": 2,
+                "angle": 0
+            },
+            "shapeStyle": {
+                "alpha": 1
+            },
+            "lineStyle": {},
+            "fillStyle": {},
+            "theme": {},
+            "path": [
+                {
+                    "fillStyle": {
+                        "type": "none"
+                    },
+                    "lineStyle": {
+                        "lineStyle": "solid"
+                    },
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": 0,
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "h"
+                        }
+                    ]
+                },
+                {
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "action": "line",
+                            "x": 20,
+                            "y": 0
+                        },
+                        {
+                            "action": "line",
+                            "x": 20,
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": 0,
+                            "y": "h"
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                }
+            ],
+            "fontStyle": {
+                "orientation": "horizontal",
+                "textAlign": "left"
+            },
+            "textBlock": [
+                {
+                    "position": {
+                        "x": 0,
+                        "y": 5,
+                        "w": 20,
+                        "h": "h-10"
+                    },
+                    "text": "阶段"
+                }
+            ],
+            "anchors": [],
+            "itemMessage": {
+                "workContent": ""
+            }
+        },
+        "PIzMYhyNkr971621": {
+            "id": "PIzMYhyNkr971621",
+            "name": "terminator",
+            "title": "开始/结束",
+            "category": "flow",
+            "group": "",
+            "groupName": null,
+            "locked": false,
+            "link": "",
+            "children": [],
+            "parent": "",
+            "resizeDir": [
+                "tl",
+                "tr",
+                "br",
+                "bl"
+            ],
+            "attribute": {
+                "container": false,
+                "visible": true,
+                "rotatable": true,
+                "linkable": true,
+                "collapsable": false,
+                "collapsed": false,
+                "markerOffset": 5
+            },
+            "dataAttributes": [
+                {
+                    "name": "序号",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "WuNUaLCJDf449143"
+                },
+                {
+                    "name": "名称",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "lCnkVeTXEQ259957"
+                },
+                {
+                    "name": "所有者",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "ssQxvqvTXG893811"
+                },
+                {
+                    "name": "连接",
+                    "type": "link",
+                    "value": "",
+                    "category": "default",
+                    "id": "ZEDWlyVUKM208409"
+                },
+                {
+                    "name": "便笺",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "VuhPXrnama658958"
+                },
+                {
+                    "name": "成本",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "cWNOjnYNrr103897"
+                },
+                {
+                    "name": "时间",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "ZTFbUhsLRG214881"
+                },
+                {
+                    "name": "部门",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "sCSjodScvq037450"
+                },
+                {
+                    "name": "输入",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "cKYwPAnxlc234699"
+                },
+                {
+                    "name": "输出",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "iAwzKwZFKC086202"
+                },
+                {
+                    "name": "风险",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "mOyxAyPYpS584538"
+                },
+                {
+                    "name": "备注",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "oVWMFBNKER021314"
+                }
+            ],
+            "props": {
+                "x": 274,
+                "y": 249,
+                "w": 100,
+                "h": 50,
+                "zindex": 3,
+                "angle": 0
+            },
+            "shapeStyle": {
+                "alpha": 1
+            },
+            "lineStyle": {},
+            "fillStyle": {},
+            "theme": {},
+            "path": [
+                {
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": "Math.min(w,h)/3",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w-Math.min(w,h)/3",
+                            "y": "0"
+                        },
+                        {
+                            "action": "curve",
+                            "x1": "w+Math.min(w,h)/3/3",
+                            "y1": "0",
+                            "x2": "w+Math.min(w,h)/3/3",
+                            "y2": "h",
+                            "x": "w-Math.min(w,h)/3",
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": "Math.min(w,h)/3",
+                            "y": "h"
+                        },
+                        {
+                            "action": "curve",
+                            "x1": "-Math.min(w,h)/3/3",
+                            "y1": "h",
+                            "x2": "-Math.min(w,h)/3/3",
+                            "y2": "0",
+                            "x": "Math.min(w,h)/3",
+                            "y": "0"
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                }
+            ],
+            "fontStyle": {},
+            "textBlock": [
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 0,
+                        "w": "w-20",
+                        "h": "h"
+                    },
+                    "text": "开始<br>"
+                }
+            ],
+            "anchors": [
+                {
+                    "x": "w/2",
+                    "y": "0"
+                },
+                {
+                    "x": "w/2",
+                    "y": "h"
+                },
+                {
+                    "x": "0",
+                    "y": "h/2"
+                },
+                {
+                    "x": "w",
+                    "y": "h/2"
+                }
+            ],
+            "container": "SQljzHcreU302658",
+            "itemMessage": {
+                "workContent": "x = 1"
+            }
+        },
+        "nsnCVdywtv871307": {
+            "id": "nsnCVdywtv871307",
+            "name": "decision",
+            "title": "判定",
+            "category": "flow",
+            "group": "",
+            "groupName": null,
+            "locked": false,
+            "link": "",
+            "children": [],
+            "parent": "",
+            "resizeDir": [
+                "tl",
+                "tr",
+                "br",
+                "bl"
+            ],
+            "attribute": {
+                "container": false,
+                "visible": true,
+                "rotatable": true,
+                "linkable": true,
+                "collapsable": false,
+                "collapsed": false,
+                "markerOffset": 5
+            },
+            "dataAttributes": [
+                {
+                    "name": "序号",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "BNCOVVFKij843947"
+                },
+                {
+                    "name": "名称",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "xwVFxJsOrt358333"
+                },
+                {
+                    "name": "所有者",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "hQquUOWaJW032413"
+                },
+                {
+                    "name": "连接",
+                    "type": "link",
+                    "value": "",
+                    "category": "default",
+                    "id": "NybElrGDDN475111"
+                },
+                {
+                    "name": "便笺",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "eARyrJKbBS661866"
+                },
+                {
+                    "name": "成本",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "NIyjdlMVBE311115"
+                },
+                {
+                    "name": "时间",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "fnXTDuXYTX199089"
+                },
+                {
+                    "name": "部门",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "rIKzPoLyzf972495"
+                },
+                {
+                    "name": "输入",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "wnazgqVQOV573900"
+                },
+                {
+                    "name": "输出",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "LpOiirgyeL032071"
+                },
+                {
+                    "name": "风险",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "LodnjGriys286108"
+                },
+                {
+                    "name": "备注",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "jydFrmQAFt231144"
+                }
+            ],
+            "props": {
+                "x": 279,
+                "y": 339,
+                "w": 90,
+                "h": 70,
+                "zindex": 4,
+                "angle": 0
+            },
+            "shapeStyle": {
+                "alpha": 1
+            },
+            "lineStyle": {},
+            "fillStyle": {},
+            "theme": {},
+            "path": [
+                {
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": "0",
+                            "y": "h/2"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w/2",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "h/2"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w/2",
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": "0",
+                            "y": "h/2"
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                }
+            ],
+            "fontStyle": {},
+            "textBlock": [
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 0,
+                        "w": "w-20",
+                        "h": "h"
+                    },
+                    "text": "判断"
+                }
+            ],
+            "anchors": [
+                {
+                    "x": "w/2",
+                    "y": "0"
+                },
+                {
+                    "x": "w/2",
+                    "y": "h"
+                },
+                {
+                    "x": "0",
+                    "y": "h/2"
+                },
+                {
+                    "x": "w",
+                    "y": "h/2"
+                }
+            ],
+            "container": "SQljzHcreU302658",
+            "itemMessage": {
+                "workContent": "x > 1"
+            }
+        },
+        "lscnTQZdmA992207": {
+            "id": "lscnTQZdmA992207",
+            "name": "process",
+            "title": "流程",
+            "category": "flow",
+            "group": "",
+            "groupName": null,
+            "locked": false,
+            "link": "",
+            "children": [],
+            "parent": "",
+            "resizeDir": [
+                "tl",
+                "tr",
+                "br",
+                "bl"
+            ],
+            "attribute": {
+                "container": false,
+                "visible": true,
+                "rotatable": true,
+                "linkable": true,
+                "collapsable": false,
+                "collapsed": false,
+                "markerOffset": 5
+            },
+            "dataAttributes": [
+                {
+                    "name": "序号",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "VyqooIkOFo845381"
+                },
+                {
+                    "name": "名称",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "BefJMxgSjQ623632"
+                },
+                {
+                    "name": "所有者",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "xrSriSBPqq528509"
+                },
+                {
+                    "name": "连接",
+                    "type": "link",
+                    "value": "",
+                    "category": "default",
+                    "id": "eUQwAbJxsw272689"
+                },
+                {
+                    "name": "便笺",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "SHDFcodRWo358562"
+                },
+                {
+                    "name": "成本",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "LbbmcvSryy889815"
+                },
+                {
+                    "name": "时间",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "BCdWPVCFJO029297"
+                },
+                {
+                    "name": "部门",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "kjKgXNHPIE586830"
+                },
+                {
+                    "name": "输入",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "HyBoPqXWqG223727"
+                },
+                {
+                    "name": "输出",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "crfJLDEhZe224296"
+                },
+                {
+                    "name": "风险",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "ALWnptghVo094855"
+                },
+                {
+                    "name": "备注",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "TUduOReOrq241240"
+                }
+            ],
+            "props": {
+                "x": 522,
+                "y": 339,
+                "w": 100,
+                "h": 70,
+                "zindex": 5,
+                "angle": 0
+            },
+            "shapeStyle": {
+                "alpha": 1
+            },
+            "lineStyle": {},
+            "fillStyle": {},
+            "theme": {},
+            "path": [
+                {
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": "0",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": "0",
+                            "y": "h"
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                }
+            ],
+            "fontStyle": {},
+            "textBlock": [
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 0,
+                        "w": "w-20",
+                        "h": "h"
+                    },
+                    "text": "增加"
+                }
+            ],
+            "anchors": [
+                {
+                    "x": "w/2",
+                    "y": "0"
+                },
+                {
+                    "x": "w/2",
+                    "y": "h"
+                },
+                {
+                    "x": "0",
+                    "y": "h/2"
+                },
+                {
+                    "x": "w",
+                    "y": "h/2"
+                }
+            ],
+            "container": "SQljzHcreU302658",
+            "itemMessage": {
+                "workContent": "x++"
+            }
+        },
+        "RmADpWcvAh045343": {
+            "id": "RmADpWcvAh045343",
+            "name": "process",
+            "title": "流程",
+            "category": "flow",
+            "group": "",
+            "groupName": null,
+            "locked": false,
+            "link": "",
+            "children": [],
+            "parent": "",
+            "resizeDir": [
+                "tl",
+                "tr",
+                "br",
+                "bl"
+            ],
+            "attribute": {
+                "container": false,
+                "visible": true,
+                "rotatable": true,
+                "linkable": true,
+                "collapsable": false,
+                "collapsed": false,
+                "markerOffset": 5
+            },
+            "dataAttributes": [
+                {
+                    "name": "序号",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "LbbiYzMQcf316613"
+                },
+                {
+                    "name": "名称",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "SuLeJRLVTg143110"
+                },
+                {
+                    "name": "所有者",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "rqIfmBusTK177350"
+                },
+                {
+                    "name": "连接",
+                    "type": "link",
+                    "value": "",
+                    "category": "default",
+                    "id": "WlMOSoSrbC831379"
+                },
+                {
+                    "name": "便笺",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "WBoHQgyWZy536022"
+                },
+                {
+                    "name": "成本",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "BRluFQxOiI312987"
+                },
+                {
+                    "name": "时间",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "wwIKOfxkxO234049"
+                },
+                {
+                    "name": "部门",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "MyTxijAGvb032662"
+                },
+                {
+                    "name": "输入",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "hVYfacYyZN307048"
+                },
+                {
+                    "name": "输出",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "pLxSRUoAQB075678"
+                },
+                {
+                    "name": "风险",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "YccJcPRsnm982620"
+                },
+                {
+                    "name": "备注",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "jCTzCzRyML511723"
+                }
+            ],
+            "props": {
+                "x": 274,
+                "y": 473,
+                "w": 100,
+                "h": 70,
+                "zindex": 6,
+                "angle": 0
+            },
+            "shapeStyle": {
+                "alpha": 1
+            },
+            "lineStyle": {},
+            "fillStyle": {},
+            "theme": {},
+            "path": [
+                {
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": "0",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": "0",
+                            "y": "h"
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                }
+            ],
+            "fontStyle": {},
+            "textBlock": [
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 0,
+                        "w": "w-20",
+                        "h": "h"
+                    },
+                    "text": "增加"
+                }
+            ],
+            "anchors": [
+                {
+                    "x": "w/2",
+                    "y": "0"
+                },
+                {
+                    "x": "w/2",
+                    "y": "h"
+                },
+                {
+                    "x": "0",
+                    "y": "h/2"
+                },
+                {
+                    "x": "w",
+                    "y": "h/2"
+                }
+            ],
+            "container": "SQljzHcreU302658",
+            "itemMessage": {
+                "workContent": "x++"
+            }
+        },
+        "hpmtrfbRve526181": {
+            "id": "hpmtrfbRve526181",
+            "name": "process",
+            "title": "流程",
+            "category": "flow",
+            "group": "",
+            "groupName": null,
+            "locked": false,
+            "link": "",
+            "children": [],
+            "parent": "",
+            "resizeDir": [
+                "tl",
+                "tr",
+                "br",
+                "bl"
+            ],
+            "attribute": {
+                "container": false,
+                "visible": true,
+                "rotatable": true,
+                "linkable": true,
+                "collapsable": false,
+                "collapsed": false,
+                "markerOffset": 5
+            },
+            "dataAttributes": [
+                {
+                    "name": "序号",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "LoinNLxnem001121"
+                },
+                {
+                    "name": "名称",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "ujIVldUAca237679"
+                },
+                {
+                    "name": "所有者",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "bAfbPxUEab535270"
+                },
+                {
+                    "name": "连接",
+                    "type": "link",
+                    "value": "",
+                    "category": "default",
+                    "id": "aCUATtBOpw276681"
+                },
+                {
+                    "name": "便笺",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "IHNRtSvDAT872127"
+                },
+                {
+                    "name": "成本",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "rPTElwXwUV629427"
+                },
+                {
+                    "name": "时间",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "AEMTYtXLgK103070"
+                },
+                {
+                    "name": "部门",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "gAHtfKxjLa034188"
+                },
+                {
+                    "name": "输入",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "FXkNoGNlZT343472"
+                },
+                {
+                    "name": "输出",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "HwBIsmkvHi831671"
+                },
+                {
+                    "name": "风险",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "puAarRkytr641370"
+                },
+                {
+                    "name": "备注",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "dBxwDWJovs135358"
+                }
+            ],
+            "props": {
+                "x": 522,
+                "y": 473,
+                "w": 100,
+                "h": 70,
+                "zindex": 7,
+                "angle": 0
+            },
+            "shapeStyle": {
+                "alpha": 1
+            },
+            "lineStyle": {},
+            "fillStyle": {},
+            "theme": {},
+            "path": [
+                {
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": "0",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w",
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": "0",
+                            "y": "h"
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                }
+            ],
+            "fontStyle": {},
+            "textBlock": [
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 0,
+                        "w": "w-20",
+                        "h": "h"
+                    },
+                    "text": "增加"
+                }
+            ],
+            "anchors": [
+                {
+                    "x": "w/2",
+                    "y": "0"
+                },
+                {
+                    "x": "w/2",
+                    "y": "h"
+                },
+                {
+                    "x": "0",
+                    "y": "h/2"
+                },
+                {
+                    "x": "w",
+                    "y": "h/2"
+                }
+            ],
+            "container": "SQljzHcreU302658",
+            "itemMessage": {
+                "workContent": "x++"
+            }
+        },
+        "ESYhvNCQfC980850": {
+            "id": "ESYhvNCQfC980850",
+            "name": "linker",
+            "text": "",
+            "group": "",
+            "linkerType": "broken",
+            "points": [
+                {
+                    "x": 324,
+                    "y": 319
+                },
+                {
+                    "x": 324,
+                    "y": 319
+                }
+            ],
+            "locked": false,
+            "dataAttributes": [],
+            "props": {
+                "zindex": 8
+            },
+            "lineStyle": {},
+            "from": {
+                "x": 324,
+                "y": 299,
+                "angle": 4.71238898038469,
+                "id": "PIzMYhyNkr971621"
+            },
+            "to": {
+                "id": "nsnCVdywtv871307",
+                "x": 324,
+                "y": 339,
+                "angle": 2.007128639793479
+            }
+        },
+        "rlImhRhIyE789085": {
+            "id": "rlImhRhIyE789085",
+            "name": "linker",
+            "text": "",
+            "group": "",
+            "linkerType": "broken",
+            "points": [
+                {
+                    "x": 324,
+                    "y": 441
+                },
+                {
+                    "x": 324,
+                    "y": 441
+                }
+            ],
+            "locked": false,
+            "dataAttributes": [],
+            "props": {
+                "zindex": 9
+            },
+            "lineStyle": {},
+            "from": {
+                "x": 324,
+                "y": 409,
+                "angle": 4.537856055185257,
+                "id": "nsnCVdywtv871307"
+            },
+            "to": {
+                "id": "RmADpWcvAh045343",
+                "x": 324,
+                "y": 473,
+                "angle": 1.570796326794897
+            }
+        },
+        "cAxznzxXeH232100": {
+            "id": "cAxznzxXeH232100",
+            "name": "linker",
+            "text": "",
+            "group": "",
+            "linkerType": "broken",
+            "points": [
+                {
+                    "x": 445.5,
+                    "y": 374
+                },
+                {
+                    "x": 445.5,
+                    "y": 374
+                }
+            ],
+            "locked": false,
+            "dataAttributes": [],
+            "props": {
+                "zindex": 10
+            },
+            "lineStyle": {},
+            "from": {
+                "x": 369,
+                "y": 374,
+                "angle": 3.4906585039886586,
+                "id": "nsnCVdywtv871307"
+            },
+            "to": {
+                "id": "lscnTQZdmA992207",
+                "x": 522,
+                "y": 374,
+                "angle": 0
+            }
+        },
+        "UQnTdYiTKp361591": {
+            "id": "UQnTdYiTKp361591",
+            "name": "linker",
+            "text": "",
+            "group": "",
+            "linkerType": "broken",
+            "points": [
+                {
+                    "x": 572,
+                    "y": 441
+                },
+                {
+                    "x": 572,
+                    "y": 441
+                }
+            ],
+            "locked": false,
+            "dataAttributes": [],
+            "props": {
+                "zindex": 11
+            },
+            "lineStyle": {},
+            "from": {
+                "x": 572,
+                "y": 409,
+                "angle": 4.71238898038469,
+                "id": "lscnTQZdmA992207"
+            },
+            "to": {
+                "id": "hpmtrfbRve526181",
+                "x": 572,
+                "y": 473,
+                "angle": 1.570796326794897
+            }
+        },
+        "ehEjFSDvFH293411": {
+            "id": "ehEjFSDvFH293411",
+            "name": "terminator",
+            "title": "开始/结束",
+            "category": "flow",
+            "group": "",
+            "groupName": null,
+            "locked": false,
+            "link": "",
+            "children": [],
+            "parent": "",
+            "resizeDir": [
+                "tl",
+                "tr",
+                "br",
+                "bl"
+            ],
+            "attribute": {
+                "container": false,
+                "visible": true,
+                "rotatable": true,
+                "linkable": true,
+                "collapsable": false,
+                "collapsed": false,
+                "markerOffset": 5
+            },
+            "dataAttributes": [
+                {
+                    "name": "序号",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "hNxwOwZMKP354797"
+                },
+                {
+                    "name": "名称",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "crtEVqyjBR163836"
+                },
+                {
+                    "name": "所有者",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "LIOKpZHsgq255797"
+                },
+                {
+                    "name": "连接",
+                    "type": "link",
+                    "value": "",
+                    "category": "default",
+                    "id": "WGunLcHBEc038990"
+                },
+                {
+                    "name": "便笺",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "VmFwSadcNM529172"
+                },
+                {
+                    "name": "成本",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "hcNaXYfoJu328062"
+                },
+                {
+                    "name": "时间",
+                    "type": "number",
+                    "value": "",
+                    "category": "default",
+                    "id": "BqrGuihSCy596131"
+                },
+                {
+                    "name": "部门",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "VATssORQMn756751"
+                },
+                {
+                    "name": "输入",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "yyYfdNazML943338"
+                },
+                {
+                    "name": "输出",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "VYiZdPoPYL268739"
+                },
+                {
+                    "name": "风险",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "sbrdQYvKoE081308"
+                },
+                {
+                    "name": "备注",
+                    "type": "string",
+                    "value": "",
+                    "category": "default",
+                    "id": "KSkpdxAVdF149850"
+                }
+            ],
+            "props": {
+                "x": 274,
+                "y": 599,
+                "w": 100,
+                "h": 50,
+                "zindex": 12,
+                "angle": 0
+            },
+            "shapeStyle": {
+                "alpha": 1
+            },
+            "lineStyle": {},
+            "fillStyle": {},
+            "theme": {},
+            "path": [
+                {
+                    "actions": [
+                        {
+                            "action": "move",
+                            "x": "Math.min(w,h)/3",
+                            "y": "0"
+                        },
+                        {
+                            "action": "line",
+                            "x": "w-Math.min(w,h)/3",
+                            "y": "0"
+                        },
+                        {
+                            "action": "curve",
+                            "x1": "w+Math.min(w,h)/3/3",
+                            "y1": "0",
+                            "x2": "w+Math.min(w,h)/3/3",
+                            "y2": "h",
+                            "x": "w-Math.min(w,h)/3",
+                            "y": "h"
+                        },
+                        {
+                            "action": "line",
+                            "x": "Math.min(w,h)/3",
+                            "y": "h"
+                        },
+                        {
+                            "action": "curve",
+                            "x1": "-Math.min(w,h)/3/3",
+                            "y1": "h",
+                            "x2": "-Math.min(w,h)/3/3",
+                            "y2": "0",
+                            "x": "Math.min(w,h)/3",
+                            "y": "0"
+                        },
+                        {
+                            "action": "close"
+                        }
+                    ]
+                }
+            ],
+            "fontStyle": {},
+            "textBlock": [
+                {
+                    "position": {
+                        "x": 10,
+                        "y": 0,
+                        "w": "w-20",
+                        "h": "h"
+                    },
+                    "text": "结束"
+                }
+            ],
+            "anchors": [
+                {
+                    "x": "w/2",
+                    "y": "0"
+                },
+                {
+                    "x": "w/2",
+                    "y": "h"
+                },
+                {
+                    "x": "0",
+                    "y": "h/2"
+                },
+                {
+                    "x": "w",
+                    "y": "h/2"
+                }
+            ],
+            "container": "SQljzHcreU302658",
+            "itemMessage": {
+                "workContent": "x = ?"
+            }
+        },
+        "xXfStAjEYe745280": {
+            "id": "xXfStAjEYe745280",
+            "name": "linker",
+            "text": "",
+            "group": "",
+            "linkerType": "broken",
+            "points": [
+                {
+                    "x": 324,
+                    "y": 571
+                },
+                {
+                    "x": 324,
+                    "y": 571
+                }
+            ],
+            "locked": false,
+            "dataAttributes": [],
+            "props": {
+                "zindex": 13
+            },
+            "lineStyle": {},
+            "from": {
+                "x": 324,
+                "y": 543,
+                "angle": 4.71238898038469,
+                "id": "RmADpWcvAh045343"
+            },
+            "to": {
+                "id": "ehEjFSDvFH293411",
+                "x": 324,
+                "y": 599,
+                "angle": 1.570796326794897
+            }
+        },
+        "WbWBKlgSfM836209": {
+            "id": "WbWBKlgSfM836209",
+            "name": "linker",
+            "text": "",
+            "group": "",
+            "linkerType": "broken",
+            "points": [
+                {
+                    "x": 572,
+                    "y": 624
+                }
+            ],
+            "locked": false,
+            "dataAttributes": [],
+            "props": {
+                "zindex": 14
+            },
+            "lineStyle": {},
+            "from": {
+                "x": 572,
+                "y": 543,
+                "angle": 4.71238898038469,
+                "id": "hpmtrfbRve526181"
+            },
+            "to": {
+                "id": "ehEjFSDvFH293411",
+                "x": 374,
+                "y": 624,
+                "angle": 3.2288591161895095
+            }
+        }
+    }
+}

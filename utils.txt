@@ -1,0 +1,76 @@
+获取选择节点api:
+    Utils.getSelected() => 返回是一个节点数组详细信息；
+    节点信息属性：
+        anchors: Array(4) [ {…}, {…}, {…}, … ]
+        attribute: Object { container: false, visible: true, rotatable: true, … }
+        category: "flow"
+        children: Array []
+        container: "LlkYiBaavi802456"
+        dataAttributes: Array(12) [ {…}, {…}, {…}, … ]
+        fillStyle: Object { type: "solid", color: "129,199,132" }
+        fontStyle: Object { color: "255,255,255" }
+        getAnchors: function getAnchors()​​
+        getPath: function getPath()​​
+        getTextBlock: function getTextBlock()
+        group: ""
+        groupName: null
+        id: "RtqRnbQuYZ664873"
+        lineStyle: Object { lineColor: "129,199,132" }
+        link: ""
+        locked: false
+        name: "terminator"
+        parent: ""
+        path: Array [ {…} ]
+        props: Object { x: 193, y: 149, w: 81, … }
+        resizeDir: Array(4) [ "tl", "tr", "br", … ]
+        shapeStyle: Object { alpha: 1 }
+        textBlock: Array [ {…} ]
+        theme: Object {  }
+        title: "开始/结束"
+    线节点属性:
+        dataAttributes: Array []
+        from: {
+            angle: 4.71238898038469
+            id: "RtqRnbQuYZ664873"
+            x: 233.5
+            y: 181
+        }
+        group: ""
+        id: "NzMShPLAmB535620"
+        lineStyle: Object {  }
+        linkerType: "broken"
+        locked: false
+        name: "linker"
+        points: Array [ {…}, {…} ]
+        props: Object { zindex: 31 }
+        text: ""
+        to: {
+            angle: 1.570796326794897
+            id: "zraVXgIgGb560644"
+            x: 233.5
+            y: 257
+        }
+
+collaboration.js=>获取画布数据：
+    Model.define     或   Utils.copy(Model.define)
+    elements: Object { ohYwWsJNLN562084: {…}, NWQeoHqTCk163887: {…}, LlkYiBaavi802456: {…}, … }    /*画布所有节点信息*/
+    page: { backgroundColor: "255,255,255"
+            gridSize: 15
+            height: 1500
+            lineJumps: false
+            orientation: "landscape"
+            padding: 20
+            showGrid: false
+            watermark: ""
+            width: 1050 }      /*画布总体信息*/
+    theme: Object {  }  /**/
+    version: 295  /**/
+
+Designer.events.addEventListener('initialized', function () {})   //画布初始化 designer.events.js 
+
+//画布渲染数据  c为画布数据
+Designer.open(c);
+Designer.initialize.canvasSizeAuto();
+
+Utils.newId()   //生成16位随机字符
+

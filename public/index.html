@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script type="text/javascript" charset="UTF-8" src="./json.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./assets/js/big_pipe.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="./scripts_bin/zh/jquery.js"></script>
+    <script type="text/javascript" src="./assets/js/util.js"></script>
+    <script src="./themes/default/diagraming/icons/iconfont.js" charset="UTF-8" type="text/javascript"></script>
+    <link rel="stylesheet" href="./assets/css/global.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/collaboration.css" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="./themes/default/diagraming/designer.css" />
+    <link type="text/css" rel="stylesheet" href="./themes/default/diagraming/ui.css" />
+    <link type="text/css" rel="stylesheet" href="./themes/default/diagraming/icons/iconfont.css" />
+    <link type="text/css" rel="stylesheet" href="./themes/default/diagraming/designer.team.css" />
+    
+    <link rel="stylesheet" href="./assets/css/katex.min.css" type="text/css" />
+    
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <!-- <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/schema/schema.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/schema/themes.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/schema/categories/basic.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/schema/categories/flow.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/schema/categories/lane.js"
+    ></script> -->
+    <!-- <script src="./assets/js/pay/qrcode.js" charset="UTF-8" type="text/javascript"></script> -->
+    <script type="text/javascript">
+      var chartId = '62874ea8513b7190af124543';
+      var userId = '62874ea5513b7190af12453d';
+      var userName = '198715_PO';
+      var teamId = '';
+      var orgId = '';
+      var role = 'owner';
+      var cateType = 'flow';
+      var time = '1653299227306';
+      var orgRole = '';
+      var dock = 'none';
+      var tutorial = false;
+      var locale = 'zh';
+      var isOpenColl2Owner = 'true';
+      var isOpenShare2Owner = 'true';
+      var isOpenPublish2Owner = 'true';
+      var isOpenClone2Owner = 'true';
+      var isComponentAdmin = 'false';
+      var waterMark = 'xx';
+      // var websocketUrl = 'wss://wpscb.processon.com/websocket';
+      var websocketUrl = '';
+      var flowIsMember = false;
+
+      var showToolbar = true;
+
+      var cstatus = 'private';
+      var dateFormat = 'yyyy-MM-dd hh:mm';
+      var showCommentIco = true;
+
+      var localRuntime = false;
+      var chartVersion = 63;
+      var isNewTextV = new Date('2022-05-20 16:17:44') > new Date('2019-01-01');
+      var issafariBrowser =
+        /Safari/.test(navigator.userAgent) ||
+        (/Trident/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent));
+      if (issafariBrowser) {
+        var createTime = '2022-05-20 16:17:44';
+        createTime = createTime.replace(/\-/g, '/');
+        isNewTextV = new Date(createTime) > new Date('2019/01/01');
+      }
+      $(function () {
+        $('#publish_category').val('');
+        if ('' != '') {
+          $('#publish_language').val('');
+        }
+        $('#publish_tags').val('');
+        $('#public_edit').attr('checked', false);
+      });
+    </script>
+    <!-- <script src="./assets/js/katex.min.js" charset="UTF-8" type="text/javascript"></script> -->
+    <!-- <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/collaboration.js"
+    ></script>
+    <script type="text/javascript" charset="UTF-8" src="./scripts_bin/zh/collaboration.js"></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/designer.core.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/files/export.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/designer.methods.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/designer.events.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/designer.ui.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/designer.beautify.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="./scripts_bin/zh/diagraming/designer.team.js"
+    ></script> -->
+  </body>
+</html>
